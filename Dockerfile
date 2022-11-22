@@ -6,8 +6,8 @@ LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="green"
 
 LABEL version="0.1.0"
-LABEL repository="https://github.com/prewk/s3-cp-action"
-LABEL maintainer="Oskar Thornblad <oskar.thornblad@gmail.com>"
+LABEL repository="https://github.com/cvanderhaar/s3-cp-action"
+LABEL maintainer="Clayton <haar36@gmail.com>"
 
 # https://github.com/aws/aws-cli/blob/master/CHANGELOG.rst
 ENV AWSCLI_VERSION='1.17.1'
