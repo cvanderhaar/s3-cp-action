@@ -11,8 +11,8 @@ fi
 # with past/future actions.
 # https://github.com/jakejarvis/s3-cp-action/issues/1
 aws configure --profile s3-cp-action <<-EOF > /dev/null 2>&1
-${INPUT_AWS_ACCESS_KEY_ID}
-${INPUT_AWS_SECRET_ACCESS_KEY}
+${INPUT_AWS_ACCESS_KEY_ID_TOOLING}
+${INPUT_AWS_SECRET_ACCESS_KEY_TOOLING}
 ${INPUT_AWS_REGION}
 text
 EOF
