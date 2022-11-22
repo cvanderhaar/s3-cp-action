@@ -1,6 +1,6 @@
 name: "S3 cp"
 description: "AWS S3 cp"
-author: prewk
+author: clayton
       
 inputs:
   aws_access_key_id:
@@ -19,7 +19,7 @@ inputs:
     description: |-
       The region where the data will be stored (if the destination is s3)
     required: False
-    default: us-east-1
+    default: us-west-1
   aws_s3_endpoint:
     description: |-
       To change s3 endpoint URL
